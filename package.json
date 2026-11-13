@@ -1,0 +1,29 @@
+{
+    "name": "lavajato-code",
+    "version": "1.0.0",
+    "description": "Plataforma web para gerenciamento de clientes, veículos e agendamentos de um lava-jato, incluindo login com expiração de sessão e criptografia de CPF.",
+    "private": true,
+    "type": "module",
+    "author": {
+        "name": "Gustavo Victor Ferreira"
+    },
+    "license": "MIT",
+    "scripts": {
+        "bd": "cls && node anexos/bd.js",
+        "dev": "cls && next dev",
+        "entrega": "cls && node anexos/entrega.js"
+    },
+    "dependencies": {
+        "@prisma/client": "6.19.3",
+        "antd": "6.6.8",
+        "bcryptjs": "3.0.3",
+        "jsonwebtoken": "9.0.3",
+        "next": "16.4.3",
+        "react": "19.3.1",
+        "react-dom": "19.3.1"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "2.6.3",
+        "prisma": "6.19.3"
+    }
+}
